@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="UTF-8">
+  <title>[VC]Leks' CS:GO Plugins</title>
+  </head>
+<body>
+<code>
+#include <sourcemod><br>
+<br>
+<br>
+/**<br>
+ * Plugin public information.<br>
+ */<br>
+struct Plugin<br>
+{<br>
+   public const char[] name;		/**< Plugin Name */<br>
+   public const char[] description;	/**< Plugin Description */<br>
+   public const char[] author;		/**< Plugin Author */<br>
+   public const char[] version;		/**< Plugin Version */<br>
+   public const char[] url;			/**< Plugin URL */<br>
+};<br>
+<br>
+/**<br>
+ * Declare this as a struct in your plugin to expose its information.<br>
+ * Example:<br>
+ *<br>
+ * public Plugin myinfo =<br>
+ * {<br>
+ *    name = "My Plugin",<br>
+ *    //etc<br>
+ * };<br><br>
+ */
+public Plugin myinfo;<br>
+{<br>
+	name = "Plugin 1",<br>
+	author = "Leks",<br>
+	description = "This is a test plugin",<br>
+	version = "1.0",<br>
+	url = "github.vanguard-cm.org"<br>
+	<br>
+	
+<b>LAST EDITED: 11/11/2016
+</body>
+</html>
